@@ -8,3 +8,11 @@ notifications:
     on_failure: always
 notifications:
   slack: g-loa1446:yj2ZdoWN6xQtkB3uWDfrlImz
+language: minimal
+
+notifications:
+  slack:
+    rooms:
+      - 製品基盤情報デザインG:your-slack-token#travis
+    on_success: always
+    on_failure: always
